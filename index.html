@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+	<title>Home</title>
+	<style>
+        body{
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color:skyblue;
+            color: white;
+            position: relative;
+            min-height: 100vh;
+        }
+        body::before{
+            position:absolute;
+            top:0;
+            left:0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.7);
+            z-index:-1;
+        }
+
+        .navbar{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:skyblue;
+            padding: 10px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .navbar a{
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease; 
+        }
+        .navbar a:hover{
+            background-color: sienna;
+        }
+        .nav-brand{
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-right: auto;
+            padding-left: 20px;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            background-color:lightgrey;
+        }
+        
+        nav li {
+            margin: 0;
+        }
+        
+        nav a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        
+        nav a:hover {
+            background-color:indianred;
+        }
+        
+        h1{
+            text-align: center;
+            color:#333;
+            font-size: 2.65rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        
+        .intro{
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: justify;
+            line-height: 1.6;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+        
+        main{
+            padding-bottom: 60px;
+        }
+        
+        footer{
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background-color:deepskyblue;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+        footer p{
+            margin: 0;
+        }
+        
+        @media(max-width: 768px){
+            .navbar{
+                flex-direction: column;
+                text-align: center;
+            }
+            .nav-brand{
+                margin-bottom: 10px;
+                padding-left: 0;
+            }
+            .navbar a{
+                padding: 10px;
+            }
+            h1{
+                font-size: 1.8rem;
+            }
+            nav ul {
+                flex-direction: column;
+            }
+        }
+    </style>
+
+</head>
+<body>
+		<h1>WELCOME TO BASOTHO CULTURAL HERITAGE</h1>
+   
+    <nav>
+        <ul>
+            <li><a href="clothing00.html">Traditional clothing</a></li>
+            <li><a href="music.html">music & dance</a></li>
+            <li><a href="craft.html">crafts and art</a></li>
+            <li><a href="contacts.html">Contact and Feedback</a></li>
+        </ul>
+    </nav>
+
+    <p style="align-content: center;">View the rich cultural heritage of Basotho from their vibrant traditional and rhythmic music to their<br> intricate crafts and art, this website is a journey into the heart of Basotho culture.</p>
+
+
+    <img src="images/heri.jpg" width="80%">
+
+    <footer>
+        <p>2025 Basotho Cultural Website</p>
+    </footer>
+
+</body>
+</html>

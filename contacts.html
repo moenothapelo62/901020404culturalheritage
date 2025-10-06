@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="C:\Users\User\Desktop\901020404\css\styles.css">
+	
+	<title>Contacts and Feeback</title>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: skyblue;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        header {
+            width: 100%;
+            background-color:skyblue;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+     
+        .contact-form {
+            max-width: 600px;
+            margin: 2rem auto;
+            padding: 1.5rem;
+            background-color: grey;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 90%;
+        }
+
+        .contact-form h2 {
+            text-align: center;
+            margin-bottom: 1rem;
+            color: #333;
+        }
+
+        .contact-form p {
+            text-align: center;
+            margin-bottom: 1rem;
+            color: #333;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-top: 1rem;
+            font-weight: bold;
+            color: #555;
+            width: 100%;
+        }
+
+        .contact-form input,
+        .contact-form select,
+        .contact-form textarea {
+            width: 100%;
+            padding: 0.75rem;
+            margin-top: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            transition: border-color 0.3s ease;
+        }
+
+        .contact-form input:focus,
+        .contact-form select:focus,
+        .contact-form textarea:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+
+        .contact-form button {
+            margin-top: 1.5rem;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            width: 100%;
+        }
+
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+
+        .read-more {
+            display: block;
+            text-align: center;
+            margin: 2rem 0;
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .read-more:hover {
+            text-decoration: underline;
+        }
+        <style>
+    body {
+        background-color: skyblue;
+    }
+
+    /* Horizontal navigation menu */
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        background-color: #333;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 0;
+    }
+
+    nav ul li a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        padding: 14px 20px;
+    }
+
+    nav ul li a:hover {
+        background-color: #111;
+    }
+
+        
+    </style>
+
+
+</head>
+<body>
+		<header>
+        <h1>Contact Us</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="clothing00.html">Traditional Clothing</a></li>
+            <li><a href="music.html">Music & Dance</a></li>
+            <li><a href="craft.html">CraftsandArts</a></li>
+        </ul>
+    </nav>
+    
+    <div class="contact-form">
+        <h2>Please Contact Us</h2>
+        <p>If you have any queries or feedback, please fill out the form below:</p>
+        
+        <form id="contactForm" style="width: 100%;">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="topic">Topic of Interest:</label>
+            <select id="topic" name="topic">
+                <option value="">-- Please choose an option --</option>
+                <option value="home">Home</option>
+                <option value="clothing">Traditional Clothing</option>
+                <option value="crafts">Crafts and Art</option>
+                <option value="music">Music & Dance</option>
+                <option value="other">Other</option>
+            </select>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    
+    <a href="#" class="read-more">Please click here to read more</a>
+    
+
+</body>
+</html>
